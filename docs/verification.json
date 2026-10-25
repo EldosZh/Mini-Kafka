@@ -1,0 +1,32 @@
+{
+  "producer_benchmark": {
+    "messages": 300,
+    "seconds": 4.219000000011874,
+    "messages_per_second": 71.10689736884467,
+    "mib_per_second": 0.017360082365440593,
+    "latency_mean_ms": 421.90000000118744,
+    "latency_p50_ms": 429.5000000129221,
+    "latency_p95_ms": 446.2499999863212,
+    "latency_p99_ms": 451.64999998087296,
+    "latency_samples": 10
+  },
+  "consumer_benchmark": {
+    "messages": 300,
+    "seconds": 1.514999999984866,
+    "messages_per_second": 198.01980198217612,
+    "mib_per_second": 0.04834467821830472,
+    "latency_mean_ms": 126.24999999873883,
+    "latency_p50_ms": 140.00000001396984,
+    "latency_p95_ms": 163.19999998959247,
+    "latency_p99_ms": 170.2399999910267,
+    "latency_samples": 12
+  },
+  "persistence_restart": "passed",
+  "committed_next_offset_resume": "passed",
+  "independent_groups": "passed",
+  "index_rebuild": "passed",
+  "incomplete_tail_recovery": "passed",
+  "deterministic_key_partitioning": "passed",
+  "keyless_round_robin": "passed",
+  "final_storage_integrity": "passed"
+}
